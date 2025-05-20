@@ -110,7 +110,7 @@ const Navbar = () => {
                   <button
                     onClick={() => setIsGamesMenuOpen(!isGamesMenuOpen)}
                     className={`px-3 py-1.5 rounded text-sm font-medium ${
-                      isActive('/treasure') || isActive('/farm')
+                      isActive('/treasure') || isActive('/https://ferma-brown.vercel.app/')
                         ? 'bg-gray-800 text-white'
                         : 'text-gray-300 hover:text-white hover:bg-gray-800 hover:bg-opacity-50'
                     } transition-colors duration-200 flex items-center`}
@@ -135,7 +135,7 @@ const Navbar = () => {
                         Сокровищница
                       </Link>
                       <Link
-                        to="/farm"
+                        to="/https://ferma-brown.vercel.app/"
                         className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white"
                         onClick={() => setIsGamesMenuOpen(false)}
                       >
@@ -333,7 +333,7 @@ const Navbar = () => {
             <button
               onClick={() => setIsGamesMenuOpen(!isGamesMenuOpen)}
               className={`block w-full text-left px-3 py-2 rounded-md text-base font-medium ${
-                isActive('/treasure') || isActive('/farm')
+                isActive('/treasure') || isActive('/https://ferma-brown.vercel.app/')
                   ? 'bg-gray-800 text-white'
                   : 'text-gray-300 hover:text-white hover:bg-gray-800'
               }`}
@@ -363,7 +363,7 @@ const Navbar = () => {
                   Сокровищница
                 </Link>
                 <Link
-                  to="/farm"
+                  to="/https://ferma-brown.vercel.app/"
                   className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700"
                   onClick={() => {
                     setIsGamesMenuOpen(false);
